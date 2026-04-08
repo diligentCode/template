@@ -1,0 +1,101 @@
+:root {
+  --menu-bg: #1a1a1a; /* Deep Black */
+  --menu-cream: #f5f5dc; /* Warm Cream */
+  --menu-muted: rgba(245, 245, 220, 0.7); /* Muted Cream for descriptions */
+  --menu-border: rgba(245, 245, 220, 0.2);
+}
+
+.menu-section {
+  background-color: var(--menu-bg);
+  color: var(--menu-cream);
+  padding: 100px 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.menu-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Main Heading */
+.menu-main-title {
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 12px;
+  font-weight: 400;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+/* Category Styling */
+.category-title {
+  font-size: 1.8rem;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.category-description {
+  font-size: 0.9rem;
+  color: var(--menu-muted);
+  line-height: 1.6;
+  margin-bottom: 50px;
+  max-width: 700px;
+}
+
+/* Menu Items List */
+.menu-items-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  border-top: 1px solid var(--menu-border);
+  padding: 30px 0;
+}
+
+/* Header of item (Name and Price) */
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.item-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.item-price {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.item-description {
+  font-size: 0.9rem;
+  color: var(--menu-muted);
+  line-height: 1.6;
+  max-width: 85%;
+}
+
+/* Hover Effect */
+.menu-item:hover {
+  background-color: rgba(245, 245, 220, 0.03);
+  transition: background 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .menu-main-title {
+    font-size: 2rem;
+    letter-spacing: 6px;
+  }
+
+  .item-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

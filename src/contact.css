@@ -1,0 +1,160 @@
+/* FOr contact form */
+/* Color Palette */
+:root {
+  --bg-black: #1a1a1a;
+  --accent-cream: #f5f5dc;
+  --text-cream: #f5f5dc;
+  --border-cream: rgba(245, 245, 220, 0.4);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  color: var(--text-cream);
+}
+
+/* Newsletter Section with Background Image/Effect */
+.newsletter-section {
+  position: relative;
+  padding: 100px 20px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTNrODgxbXVpOWxubjRqYTY3NnkxcWFucnk4eHptYzRvaWFjMGg5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10TZs8ho7qJeVy/giphy.gif"); /* Fireplace/Warm Texture */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid var(--border-cream);
+}
+
+.newsletter-section h2 {
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.mailing-list-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-cream);
+  color: var(--text-cream);
+  padding: 8px 0;
+  outline: none;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.btn-subscribe {
+  background-color: var(--accent-cream);
+  color: var(--bg-black);
+  border: none;
+  padding: 12px 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 80px 20px;
+  background-color: var(--bg-black);
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+/* Contact Form Grid */
+.contact-form .row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  flex: 1;
+  text-align: left;
+}
+
+.input-field label {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.input-field input,
+.input-field textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--text-cream);
+  padding: 12px;
+  color: var(--text-cream);
+  box-sizing: border-box;
+}
+
+.full-width {
+  margin-bottom: 40px;
+}
+
+.btn-submit {
+  background-color: var(--accent-cream);
+  color: var(--bg-black);
+  border: none;
+  padding: 12px 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.address-footer {
+  border-top: 1px solid var(--border-cream);
+  padding-top: 40px;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
