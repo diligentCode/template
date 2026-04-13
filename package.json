@@ -1,5 +1,5 @@
 {
-  "name": "eats-treats-reastaurant-",
+  "name": "webpack-template-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diligentCode/Eats-Treats-Reastaurant-.git"
+    "url": "https://github.com/your-username/your-repo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/diligentCode/Eats-Treats-Reastaurant-/issues"
+    "url": "https://github.com/your-username/your-repo/issues"
   },
-  "homepage": "https://github.com/diligentCode/Eats-Treats-Reastaurant-#readme",
+  "homepage": "https://github.com/your-username/your-repo#readme",
   "devDependencies": {
     "css-loader": "^7.1.4",
     "html-loader": "^5.1.0",
